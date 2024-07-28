@@ -50,12 +50,12 @@ export const AboutMe = () => {
           <div className="textA text-4xl text-teal-500">Certificate</div>
           <div>
             <div className="textA text-2xl text-nowrap font-medium">Front-end Developer Internship at innovasive Co.,Ltd</div>
-            <div className="border border-black rounded-[30px] mt-[20px] overflow-hidden">
+            <div className="border border-black rounded-[30px] mt-[50px] overflow-hidden">
               <img src="/images/certificate.jfif" alt="" className="object-cover" />
             </div>
           </div>
           <div>
-            <div className="mt-[70px] ml-[20px] textA text-lg">Front-end Developer Internship at innovasive Co.,Ltd</div>
+            <div className="mt-[90px] ml-[20px] textA text-lg">Front-end Developer Internship at innovasive Co.,Ltd</div>
             <div className="ml-[20px] textA text-lg">
               - Learned to develop web applications. Manage UX/UI parts to meet the needs of the designer.
             </div>
@@ -68,7 +68,7 @@ export const AboutMe = () => {
         <div className="mt-[100px] grid grid-cols-3 gap-[20px]">
           <div className="textA text-4xl text-yellow-500 ">Tools & Tech</div>
           <div className="mt-[50px] grid grid-cols-3 gap-6 text-nowrap">
-            {_.map(toolsAndTech, (item: any, i: any) => (
+            {_.map(toolsAndTech, (item, i) => (
               <div key={`item${i}`}>
                 <Badge title={item} />
               </div>
