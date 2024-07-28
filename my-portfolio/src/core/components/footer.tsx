@@ -1,12 +1,12 @@
 import React from 'react'
-import { IconButton } from './icon-button'
 
 export const Footer = () => {
+  //---------------------
+  //   RENDER
+  //---------------------
   return (
     <div className="flex justify-center items-center mb-[100px]">
-      <div>
-        <IconButton icon="fa-brands fa-github" onClick={() => {}} />
-      </div>
+      <div className="textA font-medium">Copyright @2024 | Designed by Peenchayakorn Tanakornpornsawas</div>
     </div>
   )
 }

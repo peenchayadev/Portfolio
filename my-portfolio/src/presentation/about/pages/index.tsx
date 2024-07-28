@@ -15,25 +15,25 @@ export const AboutMe = () => {
   return (
     <MainLayout>
       <div className="mt-[200px] mb-[100px] max-w-[1440px] mx-auto">
-        <div className="flex">
-          <div className="rounded-[40px] overflow-hidden min-w-[300px] h-[300px] ">
+        <div className="flex  ">
+          <div className="rounded-[40px] overflow-hidden min-w-[300px] h-[300px] mobile:ml-[30px] ">
             <img src="/images/pic.jpg" alt="Pic" className="w-[300px] h-[300px] object-cover" />
           </div>
           <div className="ml-[50px] flex-grow">
-            <div className="textNameAbout">Peenchayakorn Tanakornpornsawas</div>
-            <div className="mt-[20px] texttitleAbout">
+            <div className="textNameAbout mobile:mr-[30px]">Peenchayakorn Tanakornpornsawas</div>
+            <div className="mt-[20px] texttitleAbout mobile:mr-[20px]">
               I am studying as an undergraduate in College of Industrial Technology, Electronic Engineering (Computer) at KMUTNB I had an internship
               as a Frontend Developer for 4 months, always learning and developing myself.
             </div>
-            <div className="mt-[20px] texttitleAbout">
+            <div className="mt-[20px] texttitleAbout mobile:mr-[20px]">
               My strength is opening my mind and willing to learn new things to achieve targets and objectives.
             </div>
           </div>
         </div>
-        <div className="mt-[100px] grid grid-cols-3 gap-[20px]">
-          <div className="textA text-4xl text-pink-500">Education</div>
-          <div className="bg-indigo-300 w-fit p-[5px] rounded-lg textA text-xl">2017-2019</div>
-          <div className="bg-orange-300 w-fit p-[5px] rounded-lg textA text-xl">2019-Present</div>
+        <div className="mt-[100px] grid gap-[20px] mobile:grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3">
+          <div className="textA text-4xl text-pink-500 mobile:col-span-2 ">Education</div>
+          <div className="bg-indigo-300 w-fit p-[5px] rounded-lg textA text-xl  ">2017-2019</div>
+          <div className="bg-orange-300 w-fit p-[5px] rounded-lg textA text-xl  ">2019-Present</div>
         </div>
         <div className="mt-[30px] grid grid-cols-3 gap-[20px]">
           <div></div>
