@@ -6,6 +6,9 @@ interface MainLayoutProps {
 }
 
 export const MainLayout = (props: MainLayoutProps) => {
+  //---------------------
+  //   RENDER
+  //---------------------
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />

@@ -1,34 +1,21 @@
-import React, { ReactNode } from 'react'
+import React from 'react'
 
 import { MainLayout } from '@/core/components/layouts/main.layout'
 
-interface AnimatedTextProps {
-  children: ReactNode
-  delay: number
-  className?: string
-}
-
-const AnimatedText: React.FC<AnimatedTextProps> = ({ children, delay, className }) => (
-  <div className={`animate-fadeIn ${className}`} style={{ animationDelay: `${delay}s` }}>
-    {children}
-  </div>
-)
-
-export const HomePage: React.FC = () => {
+export const HomePage = () => {
+  //---------------------
+  //   RENDER
+  //---------------------
   return (
     <MainLayout>
-      <div className="relative h-screen">
+      <div className="relative min-h-screen">
         <img src="/images/landing.png" alt="landing" className="w-full object-cover h-full" />
-        <div className="absolute inset-0 top-[30vh]">
-          <AnimatedText delay={0.5} className="textbuttonHome text-black ml-[120px] text-4xl">
-            Hi there,
-          </AnimatedText>
-          <AnimatedText delay={1} className="textbuttonHome text-black ml-[160px] text-6xl mt-[50px]">
-            I'm Peenchayakorn
-          </AnimatedText>
-          <AnimatedText delay={1.5} className="textbuttonHome text-black ml-[120px] text-3xl mt-[50px]">
-            College Of Industrial Technology EnET , KMUTNB
-          </AnimatedText>
+        <div className="absolute inset-0 flex flex-col justify-center items-start p-4 md:p-8 lg:p-16">
+          <div className="textbuttonHome text-black text-2xl md:text-3xl lg:text-4xl animate-fadeIn1">Hi there,</div>
+          <div className="textbuttonHome text-black text-4xl md:text-5xl lg:text-6xl mt-4 md:mt-8 animate-fadeIn2">I'm Peenchayakorn</div>
+          <div className="textbuttonHome text-black text-xl md:text-2xl lg:text-3xl mt-4 md:mt-8 animate-fadeIn3">
+            College of Industrial Technology EnET C , KMUTNB
+          </div>
         </div>
       </div>
     </MainLayout>

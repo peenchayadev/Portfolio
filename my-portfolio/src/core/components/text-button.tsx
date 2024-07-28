@@ -9,6 +9,9 @@ export interface TextButtonProps {
 }
 
 export const TextButton = (props: TextButtonProps) => {
+  //---------------------
+  //   RENDER
+  //---------------------
   return (
     <div
       onClick={props.onClick}

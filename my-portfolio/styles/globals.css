@@ -17,13 +17,48 @@
   }
 }
 
-.animate-fadeIn {
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.25s forwards;
+}
+
+
+.animate-fadeIn1 {
   animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+
+.animate-fadeIn2{
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+.animate-fadeIn3 {
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 1.5s;
   opacity: 0;
 }
 
 
 @layer utilities {
+
+  .textA {
+    font-family: 'Quicksand';
+}
+
+  .texttitleAbout {
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+  .textNameAbout {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 40px;
+}
 
     .textbuttonHome {
         font-family: 'Quicksand';
