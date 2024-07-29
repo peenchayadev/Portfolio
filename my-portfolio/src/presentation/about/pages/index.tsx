@@ -15,8 +15,8 @@ export const AboutMe = () => {
   return (
     <MainLayout>
       <div className="mt-[200px] mb-[100px] max-w-[1440px] mx-auto">
-        <div className="flex  ">
-          <div className="rounded-[40px] overflow-hidden min-w-[300px] h-[300px] mobile:ml-[30px] ">
+        <div className="flex">
+          <div className="rounded-[40px] overflow-hidden min-w-[300px] h-[300px]">
             <img src="/images/pic.jpg" alt="Pic" className="w-[300px] h-[300px] object-cover" />
           </div>
           <div className="ml-[50px] flex-grow">
@@ -30,8 +30,8 @@ export const AboutMe = () => {
             </div>
           </div>
         </div>
-        <div className="mt-[100px] grid gap-[20px] mobile:grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3">
-          <div className="textA text-4xl text-pink-500 mobile:col-span-2 ">Education</div>
+        <div className="mt-[100px] grid gap-[20px] grid-cols-3">
+          <div className="textA text-4xl text-pink-500">Education</div>
           <div className="bg-indigo-300 w-fit p-[5px] rounded-lg textA text-xl  ">2017-2019</div>
           <div className="bg-orange-300 w-fit p-[5px] rounded-lg textA text-xl  ">2019-Present</div>
         </div>
