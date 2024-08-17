@@ -22,8 +22,8 @@ export const AboutMe = () => {
           <div className="ml-[50px] flex-grow">
             <div className="textNameAbout mobile:mr-[30px]">Peenchayakorn Tanakornpornsawas</div>
             <div className="mt-[20px] texttitleAbout mobile:mr-[20px]">
-              I am studying as an undergraduate in College of Industrial Technology, Electronic Engineering (Computer) at KMUTNB I had an internship
-              as a Frontend Developer for 4 months, always learning and developing myself.
+              I am studying as an undergraduate in College of Industrial Technology&lsquo; Electronic Engineering (Computer) at KMUTNB I had an
+              internship as a Frontend Developer for 4 months&lsquo; always learning and developing myself.
             </div>
             <div className="mt-[20px] texttitleAbout mobile:mr-[20px]">
               My strength is opening my mind and willing to learn new things to achieve targets and objectives.
@@ -43,7 +43,7 @@ export const AboutMe = () => {
           </div>
           <div>
             <div className="textA text-[19px]">College of Industrial Technology, Electronic Engineering (Computer)</div>
-            <div className="textA text-[19px]">King Mongkut's University of Technology North Bangkok</div>
+            <div className="textA text-[19px]">King Mongkut&apos;ss University of Technology North Bangkok</div>
           </div>
         </div>
         <div className="mt-[100px] grid grid-cols-3 gap-[20px]">
@@ -60,7 +60,7 @@ export const AboutMe = () => {
               - Learned to develop web applications. Manage UX/UI parts to meet the needs of the designer.
             </div>
             <div className="ml-[20px] textA text-lg">
-              - Learned how to work as a team with Backend Developer, UX/UI Designer, practice responsibility in one's own work.
+              - Learned how to work as a team with Backend Developer, UX/UI Designer, practice responsibility in one&apos;s own work.
             </div>
             <div className="ml-[20px] textA text-lg">- Learned integration api to receive data. or send data back to the server.</div>
           </div>
